@@ -2,10 +2,12 @@ import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
+import Seo from "../components/seo"
 
 const  Top = ({ data }) => {
   return (
     <Layout>
+      <Seo />
       <section className="hero">
         <figure>
           <Img

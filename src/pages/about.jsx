@@ -2,12 +2,14 @@ import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
+import Seo from "../components/seo"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faUtensils, faCheckSquare } from "@fortawesome/free-solid-svg-icons"
 
 const About = ({ data }) => {
   return (
     <Layout>
+      <Seo pageTitle="ESSENTIALSについて" pageDesc="食べ物についての情報を発信しているサイトです"/>
       <div>
         <div className="eyecatch">
           <figure>
