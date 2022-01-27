@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const Header = () => {
   return (
@@ -23,10 +24,10 @@ const Header = () => {
         <nav className="nav">
           <ul>
             <li>
-              <a href="/">TOP</a>
+              <Link to={`/`}>TOP</Link>
             </li>
             <li>
-              <a href="/about">ABOUT</a>
+              <Link to={`/about`}>ABOUT</Link>
             </li>
           </ul>
         </nav>
