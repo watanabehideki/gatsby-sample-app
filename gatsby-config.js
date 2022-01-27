@@ -3,7 +3,8 @@ module.exports = {
   siteMetadata: {
     title: `ESSENTIALS`,
     description: `おいしい食材と食事を探求するサイト`,
-    lang: `ja`
+    lang: `ja`,
+    siteUrl: `https://jovial-tesla-1f1cad.netlify.app`,
   },
   /* 画像最適化の設定 */
   plugins: [
