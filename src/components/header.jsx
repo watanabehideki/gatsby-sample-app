@@ -23,10 +23,10 @@ const Header = () => {
         <nav className="nav">
           <ul>
             <li>
-              <a href="base-index.html">TOP</a>
+              <a href="/">TOP</a>
             </li>
             <li>
-              <a href="base-about.html">ABOUT</a>
+              <a href="/about">ABOUT</a>
             </li>
           </ul>
         </nav>
