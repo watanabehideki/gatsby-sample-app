@@ -5,6 +5,8 @@ module.exports = {
     description: `おいしい食材と食事を探求するサイト`,
     lang: `ja`,
     siteUrl: `https://jovial-tesla-1f1cad.netlify.app`,
+    location: `ja_JP`,
+    fbappid: `XXXX`,
   },
   /* 画像最適化の設定 */
   plugins: [
