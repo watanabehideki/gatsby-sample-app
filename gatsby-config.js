@@ -21,7 +21,6 @@ module.exports = {
     },
     /* メタデータの設定 */
     `gatsby-plugin-react-helmet`,
-
     /* PWA対応 */
     {
       resolve: `gatsby-plugin-manifest`,
@@ -29,11 +28,11 @@ module.exports = {
         name: `ESSENTIALS エッセンシャルズ`, //アプリ名
         short_name: `ESSENTIALS`, //アプリの短縮名
         start_url: `/`, //アプリ開始URL
-        backgraound_color: `#ffffff`, //起動時の背景色
+        background_color: `#ffffff`, //起動時の背景色
         theme_color: `#477294`, //テーマカラー
         display: `standalone`, //アプリの表示モード
         icon: `src/images/icon.png`, //アプリのアイコン
-      }
+      },
     },
     `gatsby-plugin-offline`,
   ],
