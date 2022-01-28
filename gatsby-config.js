@@ -14,6 +14,7 @@ module.exports = {
   },
   /* 画像最適化の設定 */
   plugins: [
+    `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
